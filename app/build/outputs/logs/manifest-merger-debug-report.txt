@@ -1,0 +1,142 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:2:1-29:12
+MERGED from [com.android.support:design:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/design-24.2.1.aar/dc3aa84bd180a6dad1068ffe4b93dba8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/fa4c06bd31a500c0cc66300e036a61db/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-v4:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.1.aar/030fbca1afdb72a6ec0a2f313c91093f/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-24.2.1.aar/01c5f6cdd427068893364c2cbbaa72c0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-24.2.1.aar/d11b81b8619d0e46755c55439df288a8/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:recyclerview-v7:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-24.2.1.aar/3c2e8304e4f48db606d1f8780f08b068/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-fragment-24.2.1.aar/cd8c5b35ac0cede8f022427adb18a441/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-media-compat-24.2.1.aar/14004c633b71cc1d2cd7cd4429022bfc/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-core-utils-24.2.1.aar/da4faa9548caefd00af9c65094e898e4/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-core-ui-24.2.1.aar/59041fc22d7742a1336ae04af433c879/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-compat-24.2.1.aar/d935aeb7fd7ac200980a42901814265c/AndroidManifest.xml:17:1-27:12
+INJECTED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml
+		ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml
+		ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:8:5-68
+	android:name
+		ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:8:22-65
+application
+ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:10:5-27:19
+MERGED from [com.android.support:design:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/design-24.2.1.aar/dc3aa84bd180a6dad1068ffe4b93dba8/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/design-24.2.1.aar/dc3aa84bd180a6dad1068ffe4b93dba8/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/fa4c06bd31a500c0cc66300e036a61db/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/fa4c06bd31a500c0cc66300e036a61db/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.1.aar/030fbca1afdb72a6ec0a2f313c91093f/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.1.aar/030fbca1afdb72a6ec0a2f313c91093f/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-24.2.1.aar/01c5f6cdd427068893364c2cbbaa72c0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-24.2.1.aar/01c5f6cdd427068893364c2cbbaa72c0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-24.2.1.aar/d11b81b8619d0e46755c55439df288a8/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-24.2.1.aar/d11b81b8619d0e46755c55439df288a8/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-fragment-24.2.1.aar/cd8c5b35ac0cede8f022427adb18a441/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-fragment-24.2.1.aar/cd8c5b35ac0cede8f022427adb18a441/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-media-compat-24.2.1.aar/14004c633b71cc1d2cd7cd4429022bfc/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-media-compat-24.2.1.aar/14004c633b71cc1d2cd7cd4429022bfc/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-core-utils-24.2.1.aar/da4faa9548caefd00af9c65094e898e4/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-core-utils-24.2.1.aar/da4faa9548caefd00af9c65094e898e4/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-core-ui-24.2.1.aar/59041fc22d7742a1336ae04af433c879/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-core-ui-24.2.1.aar/59041fc22d7742a1336ae04af433c879/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-compat-24.2.1.aar/d935aeb7fd7ac200980a42901814265c/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-compat-24.2.1.aar/d935aeb7fd7ac200980a42901814265c/AndroidManifest.xml:25:5-20
+	android:supportsRtl
+		ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:13:9-41
+	android:icon
+		ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:12:9-39
+	android:allowBackup
+		ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:15:9-40
+activity#com.example.simon.busprototyp.MainActivity
+ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:16:9-18:15
+	android:name
+		ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:17:13-41
+activity#com.example.simon.busprototyp.SettingsActivity
+ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:19:9-25:20
+	android:name
+		ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:19:19-51
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:23:27-74
+activity#com.example.simon.busprototyp.SelectPosActivity
+ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:26:9-64
+	android:name
+		ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml:26:19-52
+uses-sdk
+INJECTED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml
+INJECTED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/design-24.2.1.aar/dc3aa84bd180a6dad1068ffe4b93dba8/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/design-24.2.1.aar/dc3aa84bd180a6dad1068ffe4b93dba8/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/fa4c06bd31a500c0cc66300e036a61db/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/fa4c06bd31a500c0cc66300e036a61db/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.1.aar/030fbca1afdb72a6ec0a2f313c91093f/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.1.aar/030fbca1afdb72a6ec0a2f313c91093f/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-24.2.1.aar/01c5f6cdd427068893364c2cbbaa72c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-24.2.1.aar/01c5f6cdd427068893364c2cbbaa72c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-24.2.1.aar/d11b81b8619d0e46755c55439df288a8/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-24.2.1.aar/d11b81b8619d0e46755c55439df288a8/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-24.2.1.aar/3c2e8304e4f48db606d1f8780f08b068/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-24.2.1.aar/3c2e8304e4f48db606d1f8780f08b068/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-fragment-24.2.1.aar/cd8c5b35ac0cede8f022427adb18a441/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-fragment-24.2.1.aar/cd8c5b35ac0cede8f022427adb18a441/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-media-compat-24.2.1.aar/14004c633b71cc1d2cd7cd4429022bfc/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-media-compat-24.2.1.aar/14004c633b71cc1d2cd7cd4429022bfc/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-core-utils-24.2.1.aar/da4faa9548caefd00af9c65094e898e4/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-core-utils-24.2.1.aar/da4faa9548caefd00af9c65094e898e4/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-core-ui-24.2.1.aar/59041fc22d7742a1336ae04af433c879/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-core-ui-24.2.1.aar/59041fc22d7742a1336ae04af433c879/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-compat-24.2.1.aar/d935aeb7fd7ac200980a42901814265c/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/support-compat-24.2.1.aar/d935aeb7fd7ac200980a42901814265c/AndroidManifest.xml:21:5-23:58
+INJECTED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml
+INJECTED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.2.1] /home/simon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/fa4c06bd31a500c0cc66300e036a61db/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml
+		ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml
+		ADDED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/simon/Android Studio/BusPrototyp/app/src/main/AndroidManifest.xml

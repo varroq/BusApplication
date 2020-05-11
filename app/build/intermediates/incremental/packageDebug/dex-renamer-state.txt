@@ -1,0 +1,4 @@
+#Sun Apr 28 22:56:14 CEST 2019
+base.0=/home/simon/Android Studio/BusPrototyp/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/home/simon/Android Studio/BusPrototyp/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

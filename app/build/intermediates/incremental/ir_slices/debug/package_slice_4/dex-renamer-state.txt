@@ -1,0 +1,4 @@
+#Wed May 22 14:18:33 CEST 2019
+base.0=/home/simon/Android Studio/BusPrototyp/app/build/intermediates/transforms/dexMerger/debug/4
+path.0=classes.dex
+renamed.0=classes.dex
