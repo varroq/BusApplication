@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.simon.busprototyp.MainActivity">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="23dp"
+        app:srcCompat="@drawable/logoklingel"
+        android:id="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/zustieg"
+        android:textSize="16sp"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:id="@+id/zustiegsbutton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_alignBottom="@+id/ausstiegsbutton" />
+
+    <Button
+        android:text="@string/ausstieg"
+        android:textSize="16sp"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:id="@+id/ausstiegsbutton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp" />
+
+    <Button
+        android:text="Stau"
+        android:textSize="18sp"
+        android:layout_width="220dp"
+        android:layout_height="120dp"
+        android:id="@+id/staubutton"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/zustiegsbutton"
+        android:layout_alignBottom="@+id/ausfallbutton"
+        android:layout_alignLeft="@+id/zustiegsbutton"
+        android:layout_alignStart="@+id/zustiegsbutton" />
+
+    <Button
+        android:text="settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/settingsbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <Button
+        android:text="Wagen Leer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/leerbutton"
+        android:layout_above="@+id/staubutton"
+        android:layout_toRightOf="@+id/zustiegsbutton"
+        android:layout_toLeftOf="@+id/ausstiegsbutton" />
+
+    <Button
+        android:text="Ausfall"
+        android:textSize="18sp"
+        android:layout_width="220dp"
+        android:layout_height="120dp"
+        android:id="@+id/ausfallbutton"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/ausstiegsbutton"
+        android:layout_alignRight="@+id/ausstiegsbutton"
+        android:layout_alignEnd="@+id/ausstiegsbutton" />
+
+    <TextView
+        android:text="NextStop"
+        android:textSize="32sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextStop"
+        android:layout_below="@+id/staubutton"
+        android:layout_alignLeft="@+id/staubutton"
+        android:layout_alignStart="@+id/staubutton"
+        android:layout_marginTop="31dp" />
+
+    <TextView
+        android:text="Fahrgäste:"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/nextStop"
+        android:layout_alignLeft="@+id/nextStop"
+        android:layout_alignStart="@+id/nextStop"
+        android:layout_marginTop="33dp" />
+
+    <TextView
+        android:text="Sent Messages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_marginBottom="15dp"
+        android:layout_above="@+id/settingsbutton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Public:\nPrivate:"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <TextView
+        android:text="0"
+        android:textSize="36sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
