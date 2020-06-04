@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/simon/Android Studio/BusPrototyp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn-rIN/values-kn-rIN.xml",
+            "outputFile": "C:\\Users\\simon\\AndroidStudioProjects\\BusApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn-rIN\\values-kn-rIN.xml",
             "map": [
                 {
-                    "source": "/home/simon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/fa4c06bd31a500c0cc66300e036a61db/res/values-kn-rIN/values-kn-rIN.xml",
+                    "source": "C:\\Users\\simon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\69fdfaf53f5deb5d759e026feae94daf\\res\\values-kn-rIN\\values-kn-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

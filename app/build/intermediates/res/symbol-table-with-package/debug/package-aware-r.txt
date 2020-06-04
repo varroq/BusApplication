@@ -82,12 +82,14 @@ attr buttonBarPositiveButtonStyle
 attr buttonBarStyle
 attr buttonGravity
 attr buttonPanelSideLayout
+attr buttonSize
 attr buttonStyle
 attr buttonStyleSmall
 attr buttonTint
 attr buttonTintMode
 attr checkboxStyle
 attr checkedTextViewStyle
+attr circleCrop
 attr closeIcon
 attr closeItemLayout
 attr collapseContentDescription
@@ -103,6 +105,7 @@ attr colorControlHighlight
 attr colorControlNormal
 attr colorPrimary
 attr colorPrimaryDark
+attr colorScheme
 attr colorSwitchThumbNormal
 attr commitIcon
 attr contentInsetEnd
@@ -146,6 +149,15 @@ attr expandedTitleMarginStart
 attr expandedTitleMarginTop
 attr expandedTitleTextAppearance
 attr fabSize
+attr font
+attr fontProviderAuthority
+attr fontProviderCerts
+attr fontProviderFetchStrategy
+attr fontProviderFetchTimeout
+attr fontProviderPackage
+attr fontProviderQuery
+attr fontStyle
+attr fontWeight
 attr foregroundInsidePadding
 attr gapBetweenBars
 attr goIcon
@@ -159,6 +171,8 @@ attr homeAsUpIndicator
 attr homeLayout
 attr icon
 attr iconifiedByDefault
+attr imageAspectRatio
+attr imageAspectRatioAdjust
 attr imageButtonStyle
 attr indeterminateProgressStyle
 attr initialActivityCount
@@ -229,6 +243,7 @@ attr ratingBarStyleIndicator
 attr ratingBarStyleSmall
 attr reverseLayout
 attr rippleColor
+attr scopeUris
 attr scrimAnimationDuration
 attr scrimVisibleHeightTrigger
 attr searchHintIcon
@@ -372,6 +387,17 @@ color button_material_light
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
+color common_google_signin_btn_text_dark
+color common_google_signin_btn_text_dark_default
+color common_google_signin_btn_text_dark_disabled
+color common_google_signin_btn_text_dark_focused
+color common_google_signin_btn_text_dark_pressed
+color common_google_signin_btn_text_light
+color common_google_signin_btn_text_light_default
+color common_google_signin_btn_text_light_disabled
+color common_google_signin_btn_text_light_focused
+color common_google_signin_btn_text_light_pressed
+color common_google_signin_btn_tint
 color design_error
 color design_fab_shadow_end_color
 color design_fab_shadow_mid_color
@@ -406,6 +432,9 @@ color material_grey_600
 color material_grey_800
 color material_grey_850
 color material_grey_900
+color notification_action_color_filter
+color notification_icon_bg_color
+color notification_material_background_media_default_color
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -500,6 +529,11 @@ dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen activity_horizontal_margin
 dimen activity_vertical_margin
+dimen compat_button_inset_horizontal_material
+dimen compat_button_inset_vertical_material
+dimen compat_button_padding_horizontal_material
+dimen compat_button_padding_vertical_material
+dimen compat_control_corner_material
 dimen design_appbar_elevation
 dimen design_bottom_navigation_active_item_max_width
 dimen design_bottom_navigation_active_text_size
@@ -544,9 +578,21 @@ dimen highlight_alpha_material_light
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
+dimen notification_action_icon_size
+dimen notification_action_text_size
+dimen notification_big_circle_margin
+dimen notification_content_margin_start
 dimen notification_large_icon_height
 dimen notification_large_icon_width
+dimen notification_main_column_padding_top
+dimen notification_media_narrow_margin
+dimen notification_right_icon_size
+dimen notification_right_side_padding_top
+dimen notification_small_icon_background_padding
+dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
+dimen notification_top_pad
+dimen notification_top_pad_large_text
 drawable abc_ab_share_pack_mtrl_alpha
 drawable abc_action_bar_item_background_material
 drawable abc_btn_borderless_material
@@ -630,12 +676,44 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable common_full_open_on_phone
+drawable common_google_signin_btn_icon_dark
+drawable common_google_signin_btn_icon_dark_focused
+drawable common_google_signin_btn_icon_dark_normal
+drawable common_google_signin_btn_icon_dark_normal_background
+drawable common_google_signin_btn_icon_disabled
+drawable common_google_signin_btn_icon_light
+drawable common_google_signin_btn_icon_light_focused
+drawable common_google_signin_btn_icon_light_normal
+drawable common_google_signin_btn_icon_light_normal_background
+drawable common_google_signin_btn_text_dark
+drawable common_google_signin_btn_text_dark_focused
+drawable common_google_signin_btn_text_dark_normal
+drawable common_google_signin_btn_text_dark_normal_background
+drawable common_google_signin_btn_text_disabled
+drawable common_google_signin_btn_text_light
+drawable common_google_signin_btn_text_light_focused
+drawable common_google_signin_btn_text_light_normal
+drawable common_google_signin_btn_text_light_normal_background
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_snackbar_background
+drawable googleg_disabled_color_18
+drawable googleg_standard_color_18
 drawable logoklingel
 drawable navigation_empty_icon
+drawable notification_action_background
+drawable notification_bg
+drawable notification_bg_low
+drawable notification_bg_low_normal
+drawable notification_bg_low_pressed
+drawable notification_bg_normal
+drawable notification_bg_normal_pressed
+drawable notification_icon_background
 drawable notification_template_icon_bg
+drawable notification_template_icon_low_bg
+drawable notification_tile_bg
+drawable notify_panel_notification_icon_bg
 id action0
 id action_bar
 id action_bar_activity_content
@@ -644,25 +722,33 @@ id action_bar_root
 id action_bar_spinner
 id action_bar_subtitle
 id action_bar_title
+id action_container
 id action_context_bar
 id action_divider
+id action_image
 id action_menu_divider
 id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_text
+id actions
 id activity_chooser_view_content
 id activity_main
 id activity_select_pos
 id activity_settings
 id add
+id adjust_height
+id adjust_width
 id alertTitle
 id all
 id always
+id async
 id ausfallbutton
 id ausstiegsbutton
 id auto
 id beginning
+id blocking
 id bottom
 id button
 id buttonPanel
@@ -678,6 +764,7 @@ id collapseActionView
 id contentPanel
 id custom
 id customPanel
+id dark
 id decor_content_parent
 id default_activity_button
 id design_bottom_sheet
@@ -699,17 +786,22 @@ id fill
 id fill_horizontal
 id fill_vertical
 id fixed
+id forever
 id header
 id home
 id homeAsUp
 id icon
+id icon_group
+id icon_only
 id ifRoom
 id image
 id imageView
 id info
+id italic
 id item_touch_helper_previous_elevation
 id leerbutton
 id left
+id light
 id line1
 id line3
 id listMode
@@ -723,6 +815,9 @@ id never
 id nextStop
 id none
 id normal
+id notification_background
+id notification_main_column
+id notification_main_column_container
 id parallax
 id parentPanel
 id pin
@@ -730,6 +825,8 @@ id progress_circular
 id progress_horizontal
 id radio
 id right
+id right_icon
+id right_side
 id screen
 id scroll
 id scrollIndicatorDown
@@ -762,6 +859,7 @@ id split_action_bar
 id src_atop
 id src_in
 id src_over
+id standard
 id start
 id status_bar_latest_event_content
 id staubutton
@@ -789,6 +887,7 @@ id touch_outside
 id up
 id useLogo
 id view_offset_helper
+id wide
 id withText
 id wrap_content
 id zustiegsbutton
@@ -798,6 +897,7 @@ integer app_bar_elevation_anim_duration
 integer bottom_sheet_slide_duration
 integer cancel_button_image_alpha
 integer design_snackbar_text_max_lines
+integer google_play_services_version
 integer status_bar_notification_info_maxnum
 layout abc_action_bar_title_item
 layout abc_action_bar_up_container
@@ -842,12 +942,20 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout notification_action
+layout notification_action_tombstone
 layout notification_media_action
 layout notification_media_cancel_action
 layout notification_template_big_media
+layout notification_template_big_media_custom
 layout notification_template_big_media_narrow
+layout notification_template_big_media_narrow_custom
+layout notification_template_custom_big
+layout notification_template_icon_group
 layout notification_template_lines
+layout notification_template_lines_media
 layout notification_template_media
+layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout select_dialog_item_material
@@ -893,6 +1001,24 @@ string appbar_scrolling_view_behavior
 string ausstieg
 string bottom_sheet_behavior
 string character_counter_pattern
+string common_google_play_services_enable_button
+string common_google_play_services_enable_text
+string common_google_play_services_enable_title
+string common_google_play_services_install_button
+string common_google_play_services_install_text
+string common_google_play_services_install_title
+string common_google_play_services_notification_channel_name
+string common_google_play_services_notification_ticker
+string common_google_play_services_unknown_issue
+string common_google_play_services_unsupported_text
+string common_google_play_services_update_button
+string common_google_play_services_update_text
+string common_google_play_services_update_title
+string common_google_play_services_updating_text
+string common_google_play_services_wear_update_text
+string common_open_on_phone
+string common_signin_button_text
+string common_signin_button_text_long
 string search_menu_title
 string status_bar_notification_info_overflow
 string title_activity_select_pos
@@ -1130,6 +1256,16 @@ style TextAppearance_AppCompat_Widget_PopupMenu_Large
 style TextAppearance_AppCompat_Widget_PopupMenu_Small
 style TextAppearance_AppCompat_Widget_Switch
 style TextAppearance_AppCompat_Widget_TextView_SpinnerItem
+style TextAppearance_Compat_Notification
+style TextAppearance_Compat_Notification_Info
+style TextAppearance_Compat_Notification_Info_Media
+style TextAppearance_Compat_Notification_Line2
+style TextAppearance_Compat_Notification_Line2_Media
+style TextAppearance_Compat_Notification_Media
+style TextAppearance_Compat_Notification_Time
+style TextAppearance_Compat_Notification_Time_Media
+style TextAppearance_Compat_Notification_Title
+style TextAppearance_Compat_Notification_Title_Media
 style TextAppearance_Design_CollapsingToolbar_Expanded
 style TextAppearance_Design_Counter
 style TextAppearance_Design_Counter_Overflow
@@ -1251,6 +1387,8 @@ style Widget_AppCompat_Spinner_Underlined
 style Widget_AppCompat_TextView_SpinnerItem
 style Widget_AppCompat_Toolbar
 style Widget_AppCompat_Toolbar_Button_Navigation
+style Widget_Compat_NotificationActionContainer
+style Widget_Compat_NotificationActionText
 style Widget_Design_AppBarLayout
 style Widget_Design_BottomSheet_Modal
 style Widget_Design_CollapsingToolbar
@@ -1288,10 +1426,13 @@ styleable DesignTheme bottomSheetDialogTheme bottomSheetStyle textColorError
 styleable DrawerArrowToggle arrowHeadLength arrowShaftLength barLength color drawableSize gapBetweenBars spinBars thickness
 styleable FloatingActionButton backgroundTint backgroundTintMode borderWidth elevation fabSize pressedTranslationZ rippleColor useCompatPadding
 styleable FloatingActionButton_Behavior_Layout behavior_autoHide
+styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery
+styleable FontFamilyFont font fontStyle fontWeight
 styleable ForegroundLinearLayout android_foreground android_foregroundGravity foregroundInsidePadding
 styleable LinearLayoutCompat android_gravity android_orientation android_baselineAligned android_baselineAlignedChildIndex android_weightSum divider dividerPadding measureWithLargestChild showDividers
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
+styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
 styleable MenuGroup android_enabled android_id android_visible android_menuCategory android_orderInCategory android_checkableBehavior
 styleable MenuItem android_icon android_enabled android_id android_checked android_visible android_menuCategory android_orderInCategory android_title android_titleCondensed android_alphabeticShortcut android_numericShortcut android_checkable android_onClick actionLayout actionProviderClass actionViewClass showAsAction
 styleable MenuView android_windowAnimationStyle android_itemTextAppearance android_horizontalDivider android_verticalDivider android_headerBackground android_itemBackground android_itemIconDisabledAlpha preserveIconSpacing subMenuArrow
@@ -1302,6 +1443,7 @@ styleable RecyclerView android_orientation android_descendantFocusability layout
 styleable ScrimInsetsFrameLayout insetForeground
 styleable ScrollingViewBehavior_Layout behavior_overlapTop
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
+styleable SignInButton buttonSize colorScheme scopeUris
 styleable SnackbarLayout android_maxWidth elevation maxActionInlineWidth
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode

@@ -1,4 +1,4 @@
-#Thu May 23 10:40:12 CEST 2019
-base.0=/home/simon/Android Studio/BusPrototyp/app/build/intermediates/transforms/dexMerger/debug/0
+#Fri Jun 05 00:41:35 CEST 2020
+base.0=C\:\\Users\\simon\\AndroidStudioProjects\\BusApplication\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/simon/Android Studio/BusPrototyp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
+            "outputFile": "C:\\Users\\simon\\AndroidStudioProjects\\BusApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
             "map": [
                 {
-                    "source": "/home/simon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/fa4c06bd31a500c0cc66300e036a61db/res/values-v14/values-v14.xml",
+                    "source": "C:\\Users\\simon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\69fdfaf53f5deb5d759e026feae94daf\\res\\values-v14\\values-v14.xml",
                     "from": {
                         "startLines": "2,7,8,9,15,21,22,23,26,27",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
